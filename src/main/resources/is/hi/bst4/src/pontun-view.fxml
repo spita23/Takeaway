@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import is.hi.bst4.src.MatsedillView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<SplitPane dividerPositions="0.551094890510949" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.bst4.src.PontunController">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="399.0">
+            <children>
+                <MatsedillView fx:id="mat" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                               prefHeight="348.0" prefWidth="301.0"/>
+                <Button layoutX="158.0" layoutY="359.0" mnemonicParsing="false" onAction="#fxSetjaKorfuHandler"
+                        text="Bæta í körfu"/>
+            </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="200.0">
+            <children>
+                <ListView fx:id="karfasedill" layoutX="-2.0" layoutY="-1.0" maxHeight="1.7976931348623157E308"
+                          maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="169.0"/>
+                <Button layoutX="79.0" layoutY="372.0" mnemonicParsing="false" onAction="#fxTakaUrKorfuHandler"
+                        text="Taka úr körfu"/>
+                <Label fx:id="fxUttak" layoutX="8.0" layoutY="325.0" prefHeight="25.0" prefWidth="65.0"/>
+                <Button layoutX="167.0" layoutY="2.0" mnemonicParsing="false" onAction="#fxInnskraningHandler"
+                        prefHeight="25.0" prefWidth="76.0" text="Log In"/>
+                <Button layoutX="195.0" layoutY="372.0" mnemonicParsing="false" onAction="#fxGreidaHandler"
+                        text="Borga"/>
+            </children>
+        </AnchorPane>
+    </items>
+</SplitPane>
