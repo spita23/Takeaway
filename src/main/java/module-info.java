@@ -6,7 +6,9 @@ module is.hi.bst4.takeaway {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
+    requires junit;
 
     opens is.hi.bst4.src to javafx.fxml;
     exports is.hi.bst4.src;
+    exports is.hi.bst4.vinnsla;
 }
