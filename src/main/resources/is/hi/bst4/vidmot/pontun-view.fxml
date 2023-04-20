@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import is.hi.bst4.src.MatsedillView?>
+<?import is.hi.bst4.vidmot.MatsedillView?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <SplitPane dividerPositions="0.551094890510949" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
            minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
-           xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.bst4.src.PontunController">
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.bst4.vidmot.PontunController">
     <items>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="399.0">
             <children>

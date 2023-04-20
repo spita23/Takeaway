@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.bst4.src.GreidslaController">
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="is.hi.bst4.vidmot.GreidslaController">
     <children>
         <Label fx:id="fxVerd" layoutX="514.0" layoutY="214.0" prefHeight="25.0" prefWidth="85.0" text="Verð "/>
         <Button layoutX="59.0" layoutY="329.0" mnemonicParsing="false" text="Til baka"/>

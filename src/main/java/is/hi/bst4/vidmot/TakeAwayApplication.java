@@ -1,4 +1,4 @@
-package is.hi.bst4.src;
+package is.hi.bst4.vidmot;
 
 //Brynjar Steinn Traustason.
 

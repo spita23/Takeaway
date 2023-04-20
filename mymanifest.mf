@@ -1,0 +1,2 @@
+Main-Class: is.hi.bst4.vidmot.TakeAwayApplication
+Class-Path: src/
